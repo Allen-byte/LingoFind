@@ -61,7 +61,7 @@ LingoFind 是一个 Windows 桌面端的**本地文件搜索工具**。和系统
 
 ### 其他
 
-- **天气预报**：顶部栏显示城市天气（调用心知天气 API）
+- **天气显示**：顶部栏显示城市天气（调用心知天气 API）
 - **自动更新**：检测新版本并支持下载安装
 - **深色界面**：半透明毛玻璃卡片风格，随时间段变换背景色调
 
@@ -99,38 +99,6 @@ LingoFind 是一个 Windows 桌面端的**本地文件搜索工具**。和系统
 | AI | DeepSeek API（`deepseek-v4-flash`，可选） |
 | 文件扫描 | Rust `walkdir` |
 | 网络请求 | Rust `reqwest` |
-
----
-
-## 怎么跑起来
-
-### 你需要准备
-
-- **Node.js** 18+
-- **Rust** 最新稳定版
-- **Windows**：Visual Studio 生成工具（C++ 桌面开发）
-
-### 开发模式
-
-```bash
-# 1. 克隆项目
-git clone https://github.com/yourusername/LingoFind.git
-cd LingoFind
-
-# 2. 装前端依赖
-npm install
-
-# 3. 启动（前端 + Rust 后端一起）
-npm run tauri dev
-```
-
-### 打包
-
-```bash
-npm run tauri build
-```
-
-打好包的文件在 `src-tauri/target/release/bundle/` 里。
 
 ---
 

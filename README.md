@@ -2,6 +2,7 @@
   <img src="./public/icon.png" alt="LingoFind Logo" width="120" style="border-radius: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.2);" />
 </p>
 
+
 <h3 align="center">LingoFind（语搜）</h3>
 
 <p align="center">
@@ -60,7 +61,7 @@ LingoFind 是一个 Windows 桌面端的**本地文件搜索工具**。和系统
 
 ### 其他
 
-- **天气显示**：顶部栏显示城市天气（调用心知天气 API）
+- **天气预报**：顶部栏显示城市天气（调用心知天气 API）
 - **自动更新**：检测新版本并支持下载安装
 - **深色界面**：半透明毛玻璃卡片风格，随时间段变换背景色调
 
@@ -68,11 +69,21 @@ LingoFind 是一个 Windows 桌面端的**本地文件搜索工具**。和系统
 
 ## 界面
 
-> 截图放在 `docs/images/` 目录下：
-> - `search_dashboard.png` — 搜索主界面
-> - `file_organizer.png` — 文件整理面板
-> - `knowledge_browser.png` — 文件空间浏览
-> - `file_preview.png` — 文件预览（图片 / 代码 / 标签 / 笔记）
+<p align="center">
+  <img src="images/1.png" alt="搜索主界面" width="85%" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+</p>
+
+<p align="center">
+  <img src="images/2.png" alt="文件整理" width="85%" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+</p>
+
+<p align="center">
+  <img src="images/3.png" alt="文件空间" width="85%" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+</p>
+
+<p align="center">
+  <img src="images/4.png" alt="文件预览" width="85%" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+</p>
 
 ---
 

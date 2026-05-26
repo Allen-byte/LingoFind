@@ -1,4 +1,8 @@
-# 🔍 LingoFind（语搜）
+<p align="center">
+  <img src="./public/icon.png" alt="LingoFind Logo" width="120" style="border-radius: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.2);" />
+</p>
+
+<h3 align="center">LingoFind（语搜）</h3>
 
 <p align="center">
   <strong>用日常说话的方式，搜索你电脑里的文件</strong>
